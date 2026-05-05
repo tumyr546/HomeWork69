@@ -9,22 +9,6 @@ const arr = [
   "avocado", "olive", "tomato", "cucumber", "pumpkin", "zucchini"
 ];
 
-
-console.log(arr[arr.length])
-// arr[arr.length] = 100
-// arr[arr.length] = 150
-// arr[arr.length] = 200
-console.log(arr)
-
-// console.log(arr[0])
-// console.log(arr[1])
-
-// let u = 0
-
-
-
-// for(let i = 0; i < arr.length;i++){
-//     u += arr[i]
-// }
-
-// console.log(u)
+for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i]);
+}
